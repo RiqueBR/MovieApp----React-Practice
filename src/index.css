@@ -8,7 +8,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+a {
+  text-decoration: none;
+  color: black;
+}
+
+div#root{
+  text-align: center;
+}
+
+div.movie-box{
+display: inline-block;
+width: 55%;
+height: 300px;
+border: 0.5rem solid;
+margin-top: 100px;
+border-radius: 10px;
+color: black;
+box-shadow: 7px -3px 15px 0px black;
 }
